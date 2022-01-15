@@ -11,9 +11,10 @@ main {
     align-items: center;
     justify-content: center;
 }
+/* showcase */
 #image-one {
     height: 100vh;
-    background-image: url(alto-cidade.jpg);
+    background-image: url(imagens/alto-cidade.jpg);
 }
 #image-one h1 {
     background: rgb(88, 88, 88);
@@ -31,6 +32,12 @@ main {
     background: #525252;
     padding: 5rem 1rem;
 }
+.group-image h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    font-weight: normal;
+}
 .group-text {
     width: 75%;
     display: flex;
@@ -38,7 +45,7 @@ main {
     justify-content: space-around;
     font-size: 1.125rem;
 }
-.group-text h2 {
+h2 {
     margin-bottom: 1rem;
 }
 p {
@@ -51,29 +58,26 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    opacity: .7;
+    opacity: .8;
 }
-.group-image h1 {
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: .5rem;
-    font-weight: normal;
-}
+
 #image-two {
-    background-image: url(homem-tunel.jpg);
+    background-image: url(imagens/homem-tunel.jpg);
     
 }
 #image-three {
-    background-image: url(foto-tunel.jpg);
+    background-image: url(imagens/foto-tunel.jpg);
 }
 #image-four {
     height: 100vh;
-    background-image: url(cidade-brilhando.jpg);
+    background-image: url(imagens/cidade-brilhando.jpg);
 }
+/* last image */
 #image-four h1 {
     background: rgb(88, 88, 88);
     padding: 2rem 3rem;
