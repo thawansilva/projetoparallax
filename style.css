@@ -14,7 +14,7 @@ main {
 /* showcase */
 #image-one {
     height: 100vh;
-    background-image: url(imagens/alto-cidade.jpg);
+    background-image: url(alto-cidade.jpg);
 }
 #image-one h1 {
     background: rgb(88, 88, 88);
@@ -67,15 +67,15 @@ p {
 }
 
 #image-two {
-    background-image: url(imagens/homem-tunel.jpg);
+    background-image: url(homem-tunel.jpg);
     
 }
 #image-three {
-    background-image: url(imagens/foto-tunel.jpg);
+    background-image: url(foto-tunel.jpg);
 }
 #image-four {
     height: 100vh;
-    background-image: url(imagens/cidade-brilhando.jpg);
+    background-image: url(cidade-brilhando.jpg);
 }
 /* last image */
 #image-four h1 {
